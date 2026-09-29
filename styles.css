@@ -5,3 +5,17 @@ body{
 h1{
     font-weight: bold;
 }
+.game-card {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    background-color: #eee;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.game-card:hover {
+    border: 3px solid black;
+    transform: scale(1.02);
+}
